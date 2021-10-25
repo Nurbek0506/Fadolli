@@ -1,0 +1,403 @@
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1250px;
+    }
+    .advice__item {
+        padding: 12px 16px;
+        font-size: 15px;
+    }
+    .products {
+        padding-top: 40px;
+    }
+    .bigtitle {
+        margin-bottom: 0;
+    }
+    .banner .banner__row .banner__item .item__box {
+        height: 380px;
+    }
+}
+@media (max-width: 1024px) {
+    .advice__item {
+        padding: 9px 7px;
+        font-size: 12px;
+    }
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .advice {
+        padding: 15px 0px;
+    }
+    .advice__item {
+        margin-bottom: 15px;
+    }
+    .advice .col-3 {
+        flex-basis: 50%;
+        width: 50%;
+        max-width: 50%;
+    }
+    .products .box .img {
+        height: 230px;
+    }
+    .products .box .box__info a {
+        font-size: 12px;
+    }
+    .bigtitle {
+        font-size: 50px;
+    }
+    .banner .banner__row .banner__item .item__box {
+        height: 290px;
+        font-size: 21px;
+    }
+    .banner .banner__row .banner__item .item__box .bottom {
+        font-size: 60px;
+    }
+    .banner .banner__row .banner__item .item__box .top .title,
+    .bigbanner .prosent .to {
+        font-size: 33px;
+    }
+    .bigbanner {
+        height: 480px;
+    }
+    .bigbanner .sale {
+        font-size: 100px;
+    }
+    .bigbanner .texts {
+        padding: 0px 10px;
+    }
+    .bigbanner .prosent {
+        font-size: 120px;
+    }
+    .bigbanner p {
+        font-size: 23px;
+    }
+}
+@media (max-width: 768px) {
+    .mcontainer {
+        padding: 0px 10px;
+    }
+    header .bottom a {
+        font-size: 13px;
+        padding: 13px 0px;
+    }
+    .slider .item {
+        height: 320px;
+    }
+    .slider .item .slider__text {
+        font-size: 46px;
+        margin-bottom: -8px;
+    }
+    .slider .item .slider__season {
+        font-size: 45px;
+    }
+    .slider .item .slider__year {
+        font-size: 60px;
+    }
+    .bigtitle {
+        font-size: 40px;
+    }
+    .banner .banner__row {
+        overflow: auto;
+    }
+    .banner .banner__row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .banner .banner__row .banner__item {
+        flex-basis: 33%;
+        max-width: 33%;
+        width: 33%;
+        padding: 0px 10px;
+    }
+    .bigbanner {
+        height: 350px;
+    }
+    .bigbanner .sale {
+        font-size: 70px;
+        line-height: 100px;
+    }
+    .bigbanner .prosent {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .bigbanner p {
+        line-height: 22px;
+    }
+    footer ul a {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    footer .bottom {
+        font-size: 10px;
+    }
+    /* page mens__clothing */
+    .brand {
+        margin-bottom: 16px;
+    } 
+    .brand .brand__page {
+        font-size: 20px;
+    }
+    .products {
+        padding-top: 20px;
+    }
+    .products .col-3:last-child {
+        display: none;
+    }
+    .products .col-3 {
+        flex-basis: 33%;
+        width: 33%;
+        max-width: 33%;
+        margin-bottom: 10px;
+    }
+    .products .col-6 {
+        flex-basis: 66%;
+        width: 66%;
+        max-width: 66%;
+    }
+    .products .box .img {
+        height: 207px;
+    }
+    .products .col-6 .boxx {
+        height: 330px;
+    }
+    .products .col-6 .boxx .sale .sale__text {
+        font-size: 26px;
+    }
+    .products .col-6 .boxx .sale .sale__prosent {
+        font-size: 80px;
+    }
+    .products .col-6 .boxx .sale .sale__prosent .to {
+        font-size: 28px;
+    }
+    /* page detail__mod */ 
+    .product__detail .mcontainer {
+        display: block;
+        justify-content: center;
+    }
+    .product__detail .mcontainer .product__detail--left {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 766px) {
+    header .contact {
+        display: none;
+    }
+    header .top {
+        flex-direction: column-reverse;
+    }
+    header .left__links {
+        min-width: unset;
+        margin-top: 15px;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0px 20px;
+        z-index: 5;
+        background-color:#f8f8f8;
+        justify-content: space-around;
+        box-shadow: 0px -5px 12px 0px rgba(0,0,0,0.2);
+    }
+    header .left__links svg {
+        height: 30px;
+        width: 30px;
+    }
+    header .left__links a {
+        margin: 0;
+        padding: 20px;
+    }
+    header .header__btn {
+        display: block;
+        position: relative;
+        border: 0;
+        background: unset;
+        width: 30px;
+        height: 50px;
+        margin: 10px;;
+    }
+    header .header__btn span {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        background-color: #F58D2D;
+        width: 100%;
+        height: 2px;
+        transition: 0.3s
+    }
+    header .header__btn.active span {
+        transform: rotate(45deg);   
+    }
+    header .header__btn.active span::before {
+        opacity: 0;
+    }
+    header .header__btn.active span::after {
+        transform: rotate(90deg); 
+        top: 0;
+    }
+    header .header__btn span::before,
+    header .header__btn span::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #F58D2D;
+        top: -8px;
+        transition: 0.3s;
+    }
+    header .header__btn span::after {
+        top: 8px;
+    }
+    header .bottom {
+        position: fixed;
+        transition: 0.3s;
+        bottom: -500px;
+        width: 100%;
+        background-color: #F58D2D;
+        display: flex;
+        flex-direction: column;
+        z-index: 4;
+        left: 0;
+        align-items: center;
+        padding-top: 20px;  
+        padding-bottom: 100px;
+    }
+    header .bottom.active {
+        height: auto;
+        bottom: 0;
+    }
+    footer .bottom .container {
+        padding-bottom: 80px;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .bottom .container .social {
+        margin: 10px 0;
+    }
+}
+@media (max-width: 500px) {
+    .slider .item {
+        height: 250px;
+    }
+    .slider .item .slider__text,
+    .slider .item .slider__season,
+    .slider .item .slider__year {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    .advice .col-3 {
+        flex-basis: 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .products .box .img {
+        height: 180px;
+    }
+    .products .box .box__items .v {
+        font-size: 11px;
+    }
+    .bigtitle {
+        font-size: 30px;
+    }
+    .banner {
+        padding-bottom: 30px;
+    }
+    .banner p.center {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .banner .banner__row .banner__item {
+        flex-basis: 50%;
+        max-width: 50%;
+        width: 50%;
+        padding: 0px 10px;
+    }
+    .banner .banner__row .banner__item .item__box .top .title, .bigbanner .prosent .to {
+        font-size: 25px;
+    }
+    .banner .banner__row .banner__item .item__box {
+        height: 260px;
+    }
+    .banner .banner__row .banner__item .item__box .bottom {
+        font-size: 45px;
+    }
+    .bigbanner {
+        height: 280px;
+        padding: 33px;
+    } 
+    .bigbanner .sale {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .bigbanner .prosent {
+        font-size: 50px;
+        line-height: 71px;
+    }
+    .bigbanner .prosent .to {
+        left: 15px;
+    }
+    .bigbanner p {
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+    footer ul {
+        flex-basis: 33%;
+        text-align: center;
+        padding: 0px 10px;
+        margin-bottom: 20px;
+    }
+    footer .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* Page mans clothing */
+    .sort .container .row .col-2_5:nth-child(4),
+    .sort .container .row .col-2_5 button {
+        display: none;
+    }
+    .sort .container .row .col-2_5 {
+        flex-basis: 50%;
+        width: 50%;
+        max-width: 50%;
+        padding-left: 11px;
+        padding-right: 11px;
+        margin-bottom: 10px;
+    }
+    .products .col-3,
+    .products .col-6 {
+        flex-basis: 100%;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .products .col-6 .boxx .sale .sale__text {
+        font-size: 23px;
+    }
+    .products .col-6 .boxx .sale .sale__prosent {
+        font-size: 65px;
+    }
+    .products .col-3:nth-child(10),
+    .products .col-3:nth-child(11),
+    .products .col-3:nth-child(12),
+    .products .col-3:nth-child(13),
+    .products .col-3:nth-child(14) {
+        display: none
+    }
+    .bigbanner {
+        display: none;
+    }
+    .product__detail--left .detail__slider2 {
+        width: 400px;
+    }
+    .product__detail .product__detail--left .detail__slider {
+        display: none;
+    }
+    .modall__korzina {
+        left: 15%;
+    }
+}
